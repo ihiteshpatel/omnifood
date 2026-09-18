@@ -7,3 +7,24 @@ html {
       font-size: 62.5%;
       overflow-x: hidden;
 }
+body {
+      font-family: "Rubik", sans-serif;
+      line-height: 1;
+      font-weight: 400;
+      color: #555;
+
+      /* Only works if there is nothing absolutely positioned in relation to body */
+      overflow-x: hidden;
+}
+
+/* GENRAL REUSABLE COMPONENTS */
+
+.container {
+      max-width: 120rem;
+      padding: 0 3.2rem;
+      margin: 0 auto;
+}
+*:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
